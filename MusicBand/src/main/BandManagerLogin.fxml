@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="485.0" prefWidth="697.0" style="-fx-background-color: #0098ef;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.BandManagerLoginController">
+   <children>
+      <Text fill="#fcfcfc" layoutX="123.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome Band Manager">
+         <font>
+            <Font name="Elephant" size="40.0" />
+         </font>
+      </Text>
+      <TextField fx:id="user" alignment="CENTER" layoutX="255.0" layoutY="180.0" promptText="Username" />
+      <PasswordField fx:id="pass" alignment="CENTER" layoutX="255.0" layoutY="243.0" promptText="Password" />
+      <Button layoutX="321.0" layoutY="350.0" mnemonicParsing="false" onAction="#loginButton" text="Login" />
+      <Button layoutX="313.0" layoutY="395.0" mnemonicParsing="false" onAction="#backButton" text="Go Back" />
+      <Label fx:id="label" alignment="CENTER" contentDisplay="CENTER" layoutX="332.0" layoutY="291.0" textFill="WHITE" />
+   </children>
+</AnchorPane>

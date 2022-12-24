@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="565.0" prefWidth="756.0" style="-fx-background-color: #C0C0C0;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.CreateBookingPostController">
+   <children>
+      <Text layoutX="353.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Button layoutX="568.0" layoutY="514.0" mnemonicParsing="false" onAction="#postButton" prefHeight="31.0" prefWidth="152.0" text="Post" />
+      <Text layoutX="221.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Band Booking Post">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Text>
+      <TextField fx:id="bookPost" alignment="TOP_LEFT" layoutX="24.0" layoutY="150.0" prefHeight="351.0" prefWidth="708.0" />
+      <Text layoutX="39.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Submit by writing in this fromat:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="244.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Band name, Date &amp; Time, Location, Phone">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

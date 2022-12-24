@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="569.0" prefWidth="751.0" style="-fx-background-color: #C0C0C0;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ScheduleController">
+   <children>
+      <Text layoutX="254.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Schedule" wrappingWidth="392.05859375">
+         <font>
+            <Font size="51.0" />
+         </font>
+      </Text>
+      <TextField fx:id="schedule" layoutX="14.0" layoutY="163.0" prefHeight="342.0" prefWidth="714.0" />
+      <Button layoutX="54.0" layoutY="107.0" mnemonicParsing="false" onAction="#viewButton" prefHeight="31.0" prefWidth="212.0" text="View" />
+      <Button layoutX="450.0" layoutY="107.0" mnemonicParsing="false" onAction="#createButton" prefHeight="31.0" prefWidth="212.0" text="Create" />
+      <Button layoutX="597.0" layoutY="517.0" mnemonicParsing="false" onAction="#saveButton" prefHeight="31.0" prefWidth="114.0" text="Save" />
+   </children>
+</AnchorPane>

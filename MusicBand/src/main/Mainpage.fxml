@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="522.0" prefWidth="770.0" style="-fx-background-color: #0595bd;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.MainpageController">
+   <children>
+      <Text layoutX="56.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to Apachi">
+         <font>
+            <Font name="Elephant" size="66.0" />
+         </font>
+      </Text>
+      <Text layoutX="294.0" layoutY="308.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please Select">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="combobox" layoutX="310.0" layoutY="354.0" prefHeight="31.0" prefWidth="159.0" promptText="--User Type--" />
+      <Button layoutX="357.0" layoutY="410.0" mnemonicParsing="false" onAction="#selectButton" text="Select" />
+   </children>
+</AnchorPane>

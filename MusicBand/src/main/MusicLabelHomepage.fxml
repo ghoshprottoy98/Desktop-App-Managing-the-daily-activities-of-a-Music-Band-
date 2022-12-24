@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="613.0" prefWidth="724.0" style="-fx-background-color: #05999e;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.MusicLabelHomepageController">
+   <children>
+      <AnchorPane prefHeight="657.0" prefWidth="351.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Text layoutX="42.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Music Label Homepage" wrappingWidth="294.72999572753906">
+               <font>
+                  <Font name="Elephant" size="39.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Button layoutX="373.0" layoutY="110.0" mnemonicParsing="false" onAction="#profileView" prefHeight="31.0" prefWidth="328.0" text="View Profile" />
+      <Button layoutX="374.0" layoutY="181.0" mnemonicParsing="false" onAction="#bandReport" prefHeight="31.0" prefWidth="328.0" text="Band Reports" />
+      <Button layoutX="378.0" layoutY="259.0" mnemonicParsing="false" onAction="#createContract" prefHeight="31.0" prefWidth="328.0" text="Create Contract" />
+      <Button layoutX="378.0" layoutY="329.0" mnemonicParsing="false" onAction="#bandList" prefHeight="31.0" prefWidth="328.0" text="List Of Bands Signed" />
+      <Button layoutX="380.0" layoutY="579.0" mnemonicParsing="false" onAction="#helpButton" text="Help" />
+      <Button layoutX="628.0" layoutY="579.0" mnemonicParsing="false" onAction="#logOut" text="Log Out" />
+      <TextArea fx:id="Notice" layoutX="437.0" layoutY="410.0" prefHeight="121.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="605.0" prefWidth="760.0" style="-fx-background-color: #0000ab;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.BandMemberHomepageController">
+   <children>
+      <AnchorPane layoutX="-2.0" prefHeight="613.0" prefWidth="371.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Text layoutX="54.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Band member Homepage" textAlignment="CENTER" wrappingWidth="262.375">
+               <font>
+                  <Font name="Elephant" size="34.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Button layoutX="396.0" layoutY="85.0" mnemonicParsing="false" onAction="#profileView" prefHeight="31.0" prefWidth="343.0" text="View Profile" />
+      <Button layoutX="400.0" layoutY="162.0" mnemonicParsing="false" onAction="#notesButton" prefHeight="31.0" prefWidth="343.0" text="Notes" />
+      <Button layoutX="403.0" layoutY="239.0" mnemonicParsing="false" onAction="#scheduleButton" prefHeight="31.0" prefWidth="343.0" text="View Schedule" />
+      <Button layoutX="402.0" layoutY="313.0" mnemonicParsing="false" onAction="#contractButton" prefHeight="31.0" prefWidth="332.0" text="Contract" />
+      <Button layoutX="671.0" layoutY="560.0" mnemonicParsing="false" onAction="#logoutButton" text="Logout" />
+      <Button layoutX="380.0" layoutY="560.0" mnemonicParsing="false" onAction="#helpButton" text="Help" />
+      <TextArea fx:id="Notice" layoutX="468.0" layoutY="389.0" prefHeight="122.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>

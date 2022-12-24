@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="594.0" prefWidth="705.0" style="-fx-background-color: #0098ef;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.BandmanagerHomepageController">
+   <children>
+      <AnchorPane prefHeight="594.0" prefWidth="350.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Text layoutX="20.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Band Manager Homepage" textAlignment="CENTER" wrappingWidth="310.1650085449219">
+               <font>
+                  <Font name="Elephant" size="37.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Button layoutX="385.0" layoutY="102.0" mnemonicParsing="false" onAction="#bookingPost" prefHeight="31.0" prefWidth="275.0" text="Create Booking" />
+      <Button layoutX="386.0" layoutY="155.0" mnemonicParsing="false" onAction="#scheduleButton" prefHeight="31.0" prefWidth="275.0" text="Create Schedule" />
+      <Button layoutX="386.0" layoutY="51.0" mnemonicParsing="false" onAction="#profileView" prefHeight="31.0" prefWidth="275.0" text="View profile" />
+      <Button layoutX="385.0" layoutY="256.0" mnemonicParsing="false" onAction="#reviewButton" prefHeight="31.0" prefWidth="275.0" text="See Review" />
+      <Button layoutX="372.0" layoutY="542.0" mnemonicParsing="false" onAction="#helpButton" text="Help" />
+      <Button layoutX="607.0" layoutY="542.0" mnemonicParsing="false" onAction="#logoutButton" text="Log Out" />
+      <TextArea fx:id="Notice" layoutX="423.0" layoutY="357.0" prefHeight="133.0" prefWidth="200.0" />
+      <Button layoutX="385.0" layoutY="205.0" mnemonicParsing="false" onAction="#chatButton" prefHeight="31.0" prefWidth="275.0" text="Send message" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="591.0" prefWidth="692.0" style="-fx-background-color: #0a98bf;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ClientHomepageController">
+   <children>
+      <AnchorPane layoutY="-1.0" prefHeight="592.0" prefWidth="334.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Text layoutX="21.0" layoutY="261.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Client Homepage" textAlignment="CENTER" wrappingWidth="293.0">
+               <font>
+                  <Font name="Elephant" size="45.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Button layoutX="369.0" layoutY="142.0" mnemonicParsing="false" onAction="#searchBand" prefHeight="31.0" prefWidth="293.0" text="Search Band" />
+      <Button layoutX="369.0" layoutY="214.0" mnemonicParsing="false" onAction="#giveReview" prefHeight="31.0" prefWidth="293.0" text="Give Review" />
+      <Button layoutX="369.0" layoutY="280.0" mnemonicParsing="false" onAction="#chatButton" prefHeight="31.0" prefWidth="293.0" text="Chat" />
+      <Button layoutX="369.0" layoutY="67.0" mnemonicParsing="false" onAction="#profileView" prefHeight="31.0" prefWidth="293.0" text="View Profile" />
+      <Button layoutX="346.0" layoutY="538.0" mnemonicParsing="false" onAction="#helpButton" text="Help" />
+      <Button layoutX="604.0" layoutY="538.0" mnemonicParsing="false" onAction="#logoutButton" text="Log Out" />
+      <TextArea fx:id="Notice" layoutX="416.0" layoutY="358.0" prefHeight="120.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>

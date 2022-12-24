@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="629.0" prefWidth="727.0" style="-fx-background-color: #C0C0C0;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.BandlistController">
+   <children>
+      <Text layoutX="66.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="List of Signed Bands" textAlignment="CENTER" wrappingWidth="580.6708984375">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Text>
+      <Button layoutX="324.0" layoutY="102.0" mnemonicParsing="false" onAction="#showList" text="Show List" />
+      <TextArea fx:id="Bandlist" layoutX="66.0" layoutY="154.0" prefHeight="444.0" prefWidth="598.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="515.0" prefWidth="686.0" style="-fx-background-color: #C0C0C0;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ViewProfileController">
+   <children>
+      <Text layoutX="206.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Profile">
+         <font>
+            <Font size="54.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="userInfo" layoutX="36.0" layoutY="143.0" prefHeight="344.0" prefWidth="626.0" />
+   </children>
+</AnchorPane>
