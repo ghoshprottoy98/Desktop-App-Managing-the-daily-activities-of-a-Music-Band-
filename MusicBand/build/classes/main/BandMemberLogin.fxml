@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="511.0" prefWidth="710.0" style="-fx-background-color: #0000ab;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.BandMemberLoginController">
+   <children>
+      <Text fill="WHITE" layoutX="101.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome Band Member">
+         <font>
+            <Font name="Elephant" size="42.0" />
+         </font>
+      </Text>
+      <TextField fx:id="user" alignment="CENTER" layoutX="262.0" layoutY="203.0" promptText="Username" />
+      <PasswordField fx:id="pass" alignment="CENTER" layoutX="262.0" layoutY="256.0" promptText="Password" />
+      <Button layoutX="305.0" layoutY="373.0" mnemonicParsing="false" onAction="#loginButton" prefHeight="31.0" prefWidth="101.0" text="Login" />
+      <Button layoutX="318.0" layoutY="434.0" mnemonicParsing="false" onAction="#backButton" text="Go Back" />
+      <Label fx:id="label" alignment="CENTER" contentDisplay="CENTER" layoutX="338.0" layoutY="322.0" textFill="WHITE" />
+   </children>
+</AnchorPane>

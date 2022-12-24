@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="518.0" prefWidth="780.0" style="-fx-background-color: #C0C0C0;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="main.Help2Controller">
+   <children>
+      <TextArea fx:id="feedback" layoutX="35.0" layoutY="77.0" prefHeight="380.0" prefWidth="698.0" />
+      <Text layoutX="35.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Write your query/feedback below-" />
+      <Button layoutX="639.0" layoutY="467.0" mnemonicParsing="false" onAction="#sendButton" prefHeight="37.0" prefWidth="83.0" text="Send" />
+   </children>
+</AnchorPane>

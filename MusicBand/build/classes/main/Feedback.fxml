@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="762.0" prefWidth="751.0" style="-fx-background-color: #C0C0C0;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.FeedbackController">
+   <children>
+      <TextArea fx:id="client" layoutX="24.0" layoutY="69.0" onMouseClicked="#feedback" prefHeight="127.0" prefWidth="682.0" />
+      <Text layoutX="34.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Client Feedback:" wrappingWidth="611.01025390625" />
+      <TextArea fx:id="bandmanager" layoutX="24.0" layoutY="235.0" onMouseClicked="#feedback1" prefHeight="135.0" prefWidth="682.0" />
+      <TextArea fx:id="musiclabel" layoutX="24.0" layoutY="575.0" onMouseClicked="#feedback3" prefHeight="135.0" prefWidth="682.0" />
+      <TextArea fx:id="bandmember" layoutX="24.0" layoutY="410.0" onMouseClicked="#feedback2" prefHeight="135.0" prefWidth="682.0" />
+      <Text layoutX="34.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Band Manager Feedback:" wrappingWidth="611.01025390625" />
+      <Text layoutX="34.0" layoutY="405.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Band Member Feedback:" wrappingWidth="611.01025390625" />
+      <Text layoutX="24.0" layoutY="570.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Music Label Feedback:" wrappingWidth="611.01025390625" />
+   </children>
+</AnchorPane>

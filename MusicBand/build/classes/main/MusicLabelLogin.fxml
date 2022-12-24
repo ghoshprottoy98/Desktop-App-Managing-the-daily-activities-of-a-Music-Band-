@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="555.0" prefWidth="741.0" style="-fx-background-color: #05999e;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.MusicLabelLoginController">
+   <children>
+      <Text fill="WHITE" layoutX="178.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome Music Label">
+         <font>
+            <Font name="Elephant" size="35.0" />
+         </font>
+      </Text>
+      <TextField fx:id="user" alignment="CENTER" layoutX="277.0" layoutY="236.0" promptText="Username" />
+      <PasswordField fx:id="pass" alignment="CENTER" layoutX="278.0" layoutY="284.0" promptText="Password" />
+      <Button layoutX="340.0" layoutY="413.0" mnemonicParsing="false" onAction="#loginButton" text="Login" />
+      <Button layoutX="330.0" layoutY="466.0" mnemonicParsing="false" onAction="#backButton" prefHeight="31.0" prefWidth="76.0" text="Go Back" />
+      <Label fx:id="label" layoutX="351.0" layoutY="357.0" textFill="WHITE" />
+   </children>
+</AnchorPane>

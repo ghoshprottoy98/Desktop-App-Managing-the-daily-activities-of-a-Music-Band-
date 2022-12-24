@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="418.0" prefWidth="609.0" style="-fx-background-color: #C0C0C0;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="main.AdminNoticeController">
+   <children>
+      <TextArea fx:id="notice" layoutX="24.0" layoutY="57.0" prefHeight="287.0" prefWidth="553.0" />
+      <Button layoutX="488.0" layoutY="365.0" mnemonicParsing="false" onAction="#sendButton" prefHeight="31.0" prefWidth="89.0" text="Send" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="573.0" prefWidth="770.0" style="-fx-background-color: #C0C0C0;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="main.ReviewController">
+   <children>
+      <TextArea fx:id="review" layoutX="37.0" layoutY="101.0" prefHeight="397.0" prefWidth="697.0" />
+      <Button layoutX="617.0" layoutY="521.0" mnemonicParsing="false" onAction="#postButton" prefHeight="31.0" prefWidth="101.0" text="Post" />
+      <Text layoutX="48.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Write Band Name &amp; post your review below-" />
+   </children>
+</AnchorPane>

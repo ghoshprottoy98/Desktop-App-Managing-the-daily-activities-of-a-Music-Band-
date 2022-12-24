@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="521.0" prefWidth="715.0" style="-fx-background-color: #0455bc;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.AdminLoginController">
+   <children>
+      <Text fill="#f5f5f5" layoutX="144.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome Admin" wrappingWidth="429.62890625">
+         <font>
+            <Font name="Elephant" size="52.0" />
+         </font>
+      </Text>
+      <TextField fx:id="user" alignment="CENTER" layoutX="264.0" layoutY="196.0" promptText="Username" />
+      <PasswordField fx:id="pass" alignment="CENTER" layoutX="265.0" layoutY="261.0" promptText="Password" />
+      <Button layoutX="320.0" layoutY="375.0" mnemonicParsing="false" onAction="#loginButton" text="Login" />
+      <Button layoutX="312.0" layoutY="431.0" mnemonicParsing="false" onAction="#backButton" text="Go Back" />
+      <Label fx:id="label" alignment="CENTER" contentDisplay="CENTER" layoutX="332.0" layoutY="324.0" textFill="WHITE" />
+   </children>
+</AnchorPane>
