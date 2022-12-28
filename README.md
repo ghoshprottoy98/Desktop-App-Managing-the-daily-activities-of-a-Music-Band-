@@ -1,2 +1,2 @@
-Install FXML compatible java in ur maching in order to run
+Install FXML compatible java in ur machine in order to run
 
